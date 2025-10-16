@@ -7,4 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/suma/{num1}/{num2}', [CalculadoraController::class, 'suma']);
+
+Route::get('/resta/{num1}/{num2}', [CalculadoraController::class, 'resta']);
