@@ -29,8 +29,8 @@ class CalculadoraController extends Controller
         if ($num2 == 0) {
             return "Error, no puedes dividir entre cero.";
         }
-        
+
         $resultado = $num1 / $num2;
         return "El resultado de la división es: " . $resultado;
-    }
+    }
 }
