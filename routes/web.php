@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/suma/{num1}/{num2}', [CalculadoraController::class, 'suma']);
+Route::get('/multiplicacion/{num1}/{num2}', [CalculadoraController::class, 'multiplicacion']);
