@@ -12,6 +12,13 @@ class CalculadoraController extends Controller
         return "El resultado de la suma es: " . $resultado;
     }
 
+    public function multiplicacion($num1, $num2)
+    {
+        $resultado = $num1 * $num2;
+        return "El resultado de la multiplicación es: " . $resultado;
+    }
+
+}
     public function resta($num1, $num2)
     {
         $resultado = $num1 - $num2;
